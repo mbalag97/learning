@@ -1,0 +1,33 @@
+.addRoom_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #dfdfdf;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: .8;
+  }
+  .addRoom_createChat{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .addRoom_createChat > span{
+    cursor:pointer;
+    color: red;
+  }
+  .addRoom_searchArea {
+  }
+  .addRoom_searchArea > input{
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+  }

@@ -1,0 +1,118 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+}
+.sidebar_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+.sidebar_headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+.sidebar_headerRight > .MuiSvgIcon-root {
+  margin-right: 2vw;
+  font-size: 24px !important;
+}
+.sidebar_search {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 40px;
+  padding: 10px;
+}
+.sidebar_searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+}
+.sidebar_searchContainer > .MuiSvgIcon-root {
+  color: grey;
+  padding: 10px;
+}
+.sidebar_searchContainer > input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+.sidebar_contacts {
+  flex: 1;
+  background-color: white;
+  overflow-y: scroll;
+}
+.sidebar_MoreOptionsContainer {
+  position: relative;
+  display: inline-block;
+}
+.sidebar_moreOptions {
+  margin: 2px;
+  list-style-type: none;
+  padding: 0px;
+  display: block;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  top: 20px;
+  right: 0;
+}
+.sidebar_moreOptions > li{
+  text-decoration: none;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.sidebar_moreOptions > li:hover{
+  background-color: #ecdfdf;
+}
+.sidebar_profileHeader{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-right: 1px solid lightgray;
+}
+.sidebar_profileHeader > p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.sidebar_profileArea {
+  display: flex;
+  flex-direction: column;
+  
+}
+.sidenbar_profileView{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+.sidenbar_profileFields{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.sidebar_profileFieldBox {
+  margin: 10px 0px;
+}
+.sidebar_profileFieldBox > label {
+  color: rgb(88, 21, 0);
+  margin: 5px 0px;
+}
+.sidenbar_profileFields > input{
+  padding: 5px;
+  border:none;
+  outline: none;
+  
+}

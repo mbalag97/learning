@@ -1,0 +1,107 @@
+.login{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.login_container {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px black;
+    width: 50%;
+    padding: 20px;
+}
+.login_container > img {
+    object-fit: contain;
+    height: 100px;
+    opacity: .5;
+}
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%
+}
+.login_form > div {
+    display: flex;
+    flex-direction: column;
+}
+.login_form > div > label {
+    text-align: left;
+}
+.login_form > div > input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 99, 99);
+}
+.login_form > button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login_footer {
+    margin:5px;
+}
+.login_footer > span {
+    margin:5px;
+    color: blue;
+    cursor: pointer;
+}
+.login_errorContainer {
+    background-color: rgb(255, 169, 169);
+    color:black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.login_forgetPasswordSpan{
+    margin: 10px;
+}
+.login_forgetPasswordSpan > p{
+    color: blue;
+    cursor: pointer;
+    font-size: 10px;
+}
+.login_forgetPassContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login_forgetPassContainer > input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 99, 99);
+}
+.login_forgetPassContainer > button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login_forgetPassContainer > p{
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+}
+.login_forgetPassContainer > div > span {
+    margin:5px;
+    color: blue;
+    cursor: pointer;
+}
+.login_successContainer{
+    background-color: rgb(116, 255, 116);
+    color:black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
