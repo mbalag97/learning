@@ -66,7 +66,7 @@ const reducer = (state, action) => {
 };
 function App() {
   console.log(
-    "state from local storage",
+    "state from local storage - main function",
     JSON.parse(window.localStorage.getItem("state"))
   );
   const [state, dispatch] = React.useReducer(
